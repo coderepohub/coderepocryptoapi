@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sgRUEraYjQ85ueG08TCsmbZroGHswRoahvMDPalyDl+kYbJDfDiWxrqAol8fsZmaWl2HhOEBrSMiM8nqhoBMUQ==",
+  "success": true,
+  "projectFilePath": "C:\\coderepohub\\Aman-Kumar-Knab-\\CryptoQuote\\CryptoQuote.Models\\CryptoQuote.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akumar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

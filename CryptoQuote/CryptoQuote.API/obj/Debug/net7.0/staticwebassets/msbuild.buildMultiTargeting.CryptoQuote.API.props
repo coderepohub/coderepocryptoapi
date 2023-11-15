@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CryptoQuote.API.props" />
+</Project>

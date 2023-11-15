@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Frwv2PwY+1XWLiCMAmlWn53yLWvIefsc5qp+jf6c6FM=",
+  "Source": "CryptoQuote.API",
+  "BasePath": "_content/CryptoQuote.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

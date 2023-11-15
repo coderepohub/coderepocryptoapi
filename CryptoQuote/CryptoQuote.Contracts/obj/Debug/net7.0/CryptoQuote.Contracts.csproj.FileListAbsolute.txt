@@ -1,0 +1,15 @@
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\bin\Debug\net7.0\CryptoQuote.Contracts.deps.json
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\bin\Debug\net7.0\CryptoQuote.Contracts.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\bin\Debug\net7.0\CryptoQuote.Contracts.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.csproj.AssemblyReference.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.AssemblyInfoInputs.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.AssemblyInfo.cs
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.csproj.CoreCompileInputs.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\refint\CryptoQuote.Contracts.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\ref\CryptoQuote.Contracts.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\bin\Debug\net7.0\CryptoQuote.Models.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\bin\Debug\net7.0\CryptoQuote.Models.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Contracts\obj\Debug\net7.0\CryptoQuote.Contracts.csproj.CopyComplete

@@ -1,0 +1,17 @@
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Agent.deps.json
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Agent.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Agent.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Contracts.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Models.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Contracts.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\bin\Debug\net7.0\CryptoQuote.Models.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.csproj.AssemblyReference.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.GeneratedMSBuildEditorConfig.editorconfig
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.AssemblyInfoInputs.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.AssemblyInfo.cs
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.csproj.CoreCompileInputs.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.csproj.CopyComplete
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\refint\CryptoQuote.Agent.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\CryptoQuote.Agent.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.Agent\obj\Debug\net7.0\ref\CryptoQuote.Agent.dll

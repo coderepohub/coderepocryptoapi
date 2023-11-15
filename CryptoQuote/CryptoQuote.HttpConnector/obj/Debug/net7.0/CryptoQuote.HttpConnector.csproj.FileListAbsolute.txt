@@ -1,0 +1,17 @@
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.HttpConnector.deps.json
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.HttpConnector.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.HttpConnector.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.Contracts.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.Models.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.Contracts.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\bin\Debug\net7.0\CryptoQuote.Models.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.csproj.AssemblyReference.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.GeneratedMSBuildEditorConfig.editorconfig
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.AssemblyInfoInputs.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.AssemblyInfo.cs
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.csproj.CoreCompileInputs.cache
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.csproj.CopyComplete
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\refint\CryptoQuote.HttpConnector.dll
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\CryptoQuote.HttpConnector.pdb
+C:\coderepohub\Aman-Kumar-Knab-\CryptoQuote\CryptoQuote.HttpConnector\obj\Debug\net7.0\ref\CryptoQuote.HttpConnector.dll
