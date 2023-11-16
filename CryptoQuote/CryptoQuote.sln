@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuote.API", "CryptoQuote.API\CryptoQuote.API.csproj", "{7803EE89-1AD7-4737-9935-9BEEA35D55C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoQuote.API", "CryptoQuote.API\CryptoQuote.API.csproj", "{7803EE89-1AD7-4737-9935-9BEEA35D55C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuote.Contracts", "CryptoQuote.Contracts\CryptoQuote.Contracts.csproj", "{4C4D6BEF-B3E5-4B6E-857F-94E4D17EB858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoQuote.Contracts", "CryptoQuote.Contracts\CryptoQuote.Contracts.csproj", "{4C4D6BEF-B3E5-4B6E-857F-94E4D17EB858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuote.Models", "CryptoQuote.Models\CryptoQuote.Models.csproj", "{18610C69-F3E6-45A7-AF21-0A8906EC1139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoQuote.Models", "CryptoQuote.Models\CryptoQuote.Models.csproj", "{18610C69-F3E6-45A7-AF21-0A8906EC1139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuote.HttpConnector", "CryptoQuote.HttpConnector\CryptoQuote.HttpConnector.csproj", "{1E6C8077-7379-4E36-A9BE-305027765227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoQuote.HttpConnector", "CryptoQuote.HttpConnector\CryptoQuote.HttpConnector.csproj", "{1E6C8077-7379-4E36-A9BE-305027765227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuote.Agent", "CryptoQuote.Agent\CryptoQuote.Agent.csproj", "{D23644E0-7E68-459A-8B20-D251EB4B14D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoQuote.Agent", "CryptoQuote.Agent\CryptoQuote.Agent.csproj", "{D23644E0-7E68-459A-8B20-D251EB4B14D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C491A90A-22D0-4B6E-9597-F96D987D7DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuote.Tests", "CryptoQuote.Tests\CryptoQuote.Tests.csproj", "{D3299F70-1172-463E-B027-D2488B8CE39C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{D23644E0-7E68-459A-8B20-D251EB4B14D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23644E0-7E68-459A-8B20-D251EB4B14D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23644E0-7E68-459A-8B20-D251EB4B14D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3299F70-1172-463E-B027-D2488B8CE39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3299F70-1172-463E-B027-D2488B8CE39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3299F70-1172-463E-B027-D2488B8CE39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3299F70-1172-463E-B027-D2488B8CE39C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3299F70-1172-463E-B027-D2488B8CE39C} = {C491A90A-22D0-4B6E-9597-F96D987D7DDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E800F62F-0D3D-4B3A-97D2-1CFCDE0295EF}

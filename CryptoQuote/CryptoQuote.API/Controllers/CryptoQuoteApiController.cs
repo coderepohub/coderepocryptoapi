@@ -1,7 +1,7 @@
 ﻿using CryptoQuote.Contracts;
-using Microsoft.AspNetCore.Http;
+using CryptoQuote.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Headers;
+using System.Collections.Generic;
 
 namespace CryptoQuote.API.Controllers
 {
@@ -24,9 +24,15 @@ namespace CryptoQuote.API.Controllers
         /// <param name="limit">Pass the limit of data (optional) by default it is set to 50.</param>
         /// <returns>Returns list of crypto currency codes.</returns>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<CryptoCurrencyCodeResponse>))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Get([FromQuery] int limit = 50)
         {
             _logger.Log(LogLevel.Information, $"Get Crypto currency code api endpoint called.");
+            if (limit <= 0)
+            {
+                return BadRequest($"{nameof(limit)} should not be less than or equal to 0.");
+            }
             var cryptoCurrencyCode = await _cryptoQuoteAgent.GetCryptoCurrencyCodesAsync(limit);
             if (cryptoCurrencyCode is null || !cryptoCurrencyCode.Any())
             {
@@ -43,9 +49,15 @@ namespace CryptoQuote.API.Controllers
         /// <param name="currencycode">Currency code as BTC, etc.</param>
         /// <returns>Returns list of crypto currency exhange rates data</returns>
         [HttpGet("/quotation/{currencycode}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<CryptoCurrencyQuotation>))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Get(string currencycode)
         {
             _logger.Log(LogLevel.Information, $"Get Crypto currency quotation api endpoint called.");
+            if (string.IsNullOrEmpty(currencycode))
+            {
+                return BadRequest($"{nameof(currencycode)} should not be empty.");
+            }
             var cryptoQuotation = await _cryptoQuoteAgent.GetCryptoQuotationAsync(currencycode);
             if (cryptoQuotation is null || !cryptoQuotation.Any())
             {

@@ -24,6 +24,7 @@ namespace CryptoQuote.Agent
             var getCryptoCurrencyResult = await _restClient.GetCryptoCurrencyCodesAsync(limit);
             if (getCryptoCurrencyResult is null || getCryptoCurrencyResult.Data is null)
             {
+                _logger.Log(LogLevel.Warning, $"{nameof(getCryptoCurrencyResult)} - GetCryptoCurrencyCodesAsync returns no data.");
                 return Enumerable.Empty<CryptoCurrencyCodeResponse>();
             }
 
@@ -39,17 +40,33 @@ namespace CryptoQuote.Agent
 
             foreach (var exchangeCurrencyCode in exchangeCurrencyCodes)
             {
-                var cryptoQuotationResult = await _restClient.GetQuoteForCurrenciesAsync(currencyCode, exchangeCurrencyCode);
+                var cryptoQuotationResult = await _restClient.GetQuoteForCryptoAsync(currencyCode, exchangeCurrencyCode);
                 if (cryptoQuotationResult is null || cryptoQuotationResult.Data is null)
+                {
+                    _logger.Log(LogLevel.Warning, $"{nameof(cryptoQuotationResult)} - GetQuoteForCryptoAsync returns no data for currency {exchangeCurrencyCode}");
                     continue;
+                }
+
 
                 // Get the currency details
                 var cryptoData = cryptoQuotationResult.Data[currencyCode];
-                if (cryptoData is null) continue;
+                if (cryptoData is null)
+                {
+                    _logger.Log(LogLevel.Warning, $"{nameof(cryptoData)} has no data for currency {exchangeCurrencyCode}");
+                    continue;
+                }
                 var quote = cryptoData["quote"];
-                if (quote is null) continue;
+                if (quote is null)
+                {
+                    _logger.Log(LogLevel.Warning, $"{nameof(quote)} has no data for currency {exchangeCurrencyCode}");
+                    continue;
+                }
                 var quotationDetails = quote[exchangeCurrencyCode];
-                if (quotationDetails is null) continue;
+                if (quotationDetails is null)
+                {
+                    _logger.Log(LogLevel.Warning, $"{nameof(quotationDetails)} has no data for currency {exchangeCurrencyCode}");
+                    continue;
+                }
 
                 CryptoCurrencyQuotation cryptoCurrencyQuotation = new CryptoCurrencyQuotation
                 {

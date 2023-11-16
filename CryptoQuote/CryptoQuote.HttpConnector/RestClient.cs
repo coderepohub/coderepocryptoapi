@@ -20,6 +20,11 @@ namespace CryptoQuote.HttpConnector
         ///<inheritdoc/>
         public async Task<CryptoCurrencyCodeApiResponse> GetCryptoCurrencyCodesAsync(int limit)
         {
+            if (limit <= 0)
+            {
+                throw new Exception($"limit must be greater than or equal to 1");
+            }
+
             CryptoCurrencyCodeApiResponse cryptoCurrencyCodesResponse = null;
             string uri = $"{_cryptoApiOptions.GetCurrencyCodeUri}?limit={limit}";
             var httpResponseMessage = await SendRequest(Method.GET, uri);
@@ -36,10 +41,12 @@ namespace CryptoQuote.HttpConnector
         }
 
         ///<inheritdoc/>
-        public async Task<CryptoCurrencyQuotationApiResponse> GetQuoteForCurrenciesAsync(string currencyCode, string convertCode)
+        public async Task<CryptoCurrencyQuotationApiResponse> GetQuoteForCryptoAsync(string cryptoCode, string convertCurrencyCode)
         {
+            if (string.IsNullOrEmpty(cryptoCode)) throw new ArgumentNullException(nameof(cryptoCode));
+            if (string.IsNullOrEmpty(convertCurrencyCode)) throw new ArgumentNullException(nameof(convertCurrencyCode));
             CryptoCurrencyQuotationApiResponse cryptoCurrencyQuoationApiResponse = null;
-            string uri = $"{_cryptoApiOptions.GetExchangeUri}?symbol={currencyCode}&convert={convertCode}";
+            string uri = $"{_cryptoApiOptions.GetExchangeUri}?symbol={cryptoCode}&convert={convertCurrencyCode}";
             var httpResponseMessage = await SendRequest(Method.GET, uri);
             if (httpResponseMessage is not null)
             {

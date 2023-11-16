@@ -5,7 +5,14 @@
     /// </summary>
     public class CryptoCurrencyCodeResponse
     {
-        public string Symbol { get; set; }
+        /// <summary>
+        /// Crypto Code
+        /// </summary>
+        public string Code { get; set; }
+
+        /// <summary>
+        /// Name of the Crypto currency
+        /// </summary>
         public string Name { get; set; }
     }
 }

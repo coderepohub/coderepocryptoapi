@@ -13,7 +13,8 @@ public interface IRestClient
     /// <summary>
     /// Returns Quoation for currency passed
     /// </summary>
-    /// <param name="currencyCode"></param>
+    /// <param name="cryptoCode">Crypto currency code</param>
+    /// <param name="convertCurrencyCode">Currency code in which conversion needs to be calculated</param>
     /// <returns>Returns the quoation in USD,EUR,BRL,GBP,AUD</returns>
-    Task<CryptoCurrencyQuotationApiResponse> GetQuoteForCurrenciesAsync(string currencyCode, string convertCode);
+    Task<CryptoCurrencyQuotationApiResponse> GetQuoteForCryptoAsync(string cryptoCode, string convertCurrencyCode);
 }
